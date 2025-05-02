@@ -4,22 +4,184 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/output.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <title>Document</title>
   </head>
-  <header>
-    <ul>
-      <li>
-        <h1>he</h1>
-      </li>
-    </ul>
+  <header class="sticky top-0 z-50">
+    <nav
+      class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-6 shadow-md bg-white absolute top-0">
+      <div class="flex justify-between items-center">
+        <a href="#" class="flex items-center space-x-2">
+          <img
+            src="./src//assets/Logo.png "
+            alt="Furniro Logo"
+            class="h-8 md:h-9 w-auto" />
+          <span class="text-2xl md:text-3xl font-bold text-gray-900"
+            >Furniro</span
+          >
+        </a>
+        <div class="hidden md:flex items-center space-x-10 lg:space-x-16">
+          <a
+            href="#"
+            class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+            >Shop</a
+          >
+          <a
+            href="#"
+            class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+            >About</a
+          >
+          <a
+            href="#"
+            class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+            >Contact</a
+          >
+        </div>
+        <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
+          <a href="#" class="text-gray-900 hover:text-gray-600">
+            <i class="fa-solid fa-user fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-900 hover:text-gray-600">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-900 hover:text-gray-600">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-900 hover:text-gray-600">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+        </div>
+
+        <div class="md:hidden flex items-center">
+          <button class="text-gray-900 focus:outline-none cursor-default">
+            <i class="fa-solid fa-bars fa-lg"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="md:hidden mt-4 border-t border-gray-100 pt-4 space-y-2">
+        <a
+          href="#"
+          class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+          >Home</a
+        >
+        <a
+          href="#"
+          class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+          >Shop</a
+        >
+        <a
+          href="#"
+          class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+          >About</a
+        >
+        <a
+          href="#"
+          class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+          >Contact</a
+        >
+        <div
+          class="flex items-center space-x-4 pt-4 px-3 border-t border-gray-100 mt-2">
+          <a href="#" class="text-gray-800 hover:text-gray-600">
+            <i class="fa-solid fa-user fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-800 hover:text-gray-600">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-800 hover:text-gray-600">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-800 hover:text-gray-600">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
   </header>
   <body>
-<<<<<<< HEAD
-    <h1>HEllo Wold</h1>
-    <p>Welcome to my Homepage!</p>
-=======
-    <h1 class="text-red-900">HEllo Wold</h1>
-    <p class="text-5xl">Welcome to my Homepage!</p>
->>>>>>> a58c0579bd412021a570f1af4a51846bb2bdd6b6
+    <main>
+      <section>
+        <div
+          class="bg-[url(./assets/herosection.png)] flex flex-col md:flex-row items-center justify-center min-h-screen p-6 md:p-16 gap-8">
+          <div class="w-full md:w-1/2"></div>
+
+          <div class="bg-amber-50 p-8 rounded-lg shadow-md w-full md:w-1/2">
+            <p class="text-sm uppercase tracking-wide text-gray-600 mb-2">
+              New Arrival
+            </p>
+            <h1
+              class="text-3xl md:text-4xl font-bold text-yellow-900 mb-4 leading-snug">
+              Discover Our<br />New Collection
+            </h1>
+            <p class="text-gray-600 mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis.
+            </p>
+            <button
+              class="bg-yellow-700 text-white px-6 py-3 rounded-md hover:bg-yellow-800 transition duration-300">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="p-6 md:p-16 gap-8">
+          <h2 class="text-3xl">Browse The Range</h2>
+          <p class="text-md">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+            veritatis corporis
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6 md:p-16">
+          <div class="text-center">
+            <div class="bg-white shadow-md rounded-lg">
+              <img
+                src="./src/assets/dinning.png"
+                alt="Sofa"
+                class="w-full h-100 object-cover rounded-lg" />
+            </div>
+            <h2 class="font-bold text-2xl mt-5">Dinning</h2>
+          </div>
+          <div class="text-center">
+            <div class="bg-white shadow-md rounded-lg">
+              <img
+                src="./src/assets/livving.png"
+                alt="Sofa"
+                class="w-full h-100 object-cover rounded-lg" />
+            </div>
+            <h2 class="font-bold text-2xl mt-5">Living</h2>
+          </div>
+          <div class="text-center">
+            <div class="bg-white shadow-md rounded-lg">
+              <img
+                src="./src/assets/badroom.png"
+                alt="Sofa"
+                class="w-full h-100 object-cover rounded-lg" />
+            </div>
+            <h2 class="font-bold text-2xl mt-5">Bedroom</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        
+      </section>
+    </main>
   </body>
 </html>
