@@ -9,33 +9,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
   </head>
   <body class="bg-white">
-    <header>
+    <header class="sticky top-0 z-50">
       <nav
-        class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-6 shadow-md bg-white"
-      >
+        class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-6 shadow-md bg-white absolute top-0">
         <div class="flex justify-between items-center">
-          <a href="/index.html" class="flex items-center space-x-2">
+          <a href="./index.html" class="flex items-center space-x-2">
             <img
-              src="../assets/Logo.png"
+              src="../assets//Logo.png "
               alt="Furniro Logo"
-              class="h-8 md:h-9 w-auto"
-            />
+              class="h-8 md:h-9 w-auto" />
             <span class="text-2xl md:text-3xl font-bold text-gray-900"
               >Furniro</span
             >
           </a>
-
           <div class="hidden md:flex items-center space-x-10 lg:space-x-16">
             <a
               href="/index.html"
@@ -43,7 +38,7 @@
               >Home</a
             >
             <a
-              href="./shop_page.html"
+              href="./src/pages/shop_page.html"
               class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
               >Shop</a
             >
@@ -58,7 +53,6 @@
               >Contact</a
             >
           </div>
-
           <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
             <a href="#" class="text-gray-900 hover:text-gray-600">
               <i class="fa-solid fa-user fa-lg"></i>
@@ -103,8 +97,7 @@
             >Contact</a
           >
           <div
-            class="flex items-center space-x-4 pt-4 px-3 border-t border-gray-100 mt-2"
-          >
+            class="flex items-center space-x-4 pt-4 px-3 border-t border-gray-100 mt-2">
             <a href="#" class="text-gray-800 hover:text-gray-600">
               <i class="fa-solid fa-user fa-lg"></i>
             </a>
@@ -126,16 +119,14 @@
         <div class="bg-white">
           <div
             class="bg-cover bg-center py-16 px-4 text-center"
-            style="background-image: url('../assets/bg-shop-page.webp')"
-          >
+            style="background-image: url('../assets/bg-shop-page.webp')">
             <h1 class="text-4xl font-bold text-white">Shop</h1>
             <p class="text-sm text-white mt-2">
               <a href="#" class="text-white font-semibold">Home</a> &gt; Shop
             </p>
           </div>
           <div
-            class="bg-[#f6f0e8] px-6 py-4 flex flex-wrap items-center justify-between text-sm"
-          >
+            class="bg-[#f6f0e8] px-6 py-4 flex flex-wrap items-center justify-between text-sm">
             <div class="flex items-center space-x-4">
               <button class="flex items-center space-x-1 text-gray-600">
                 <svg
@@ -143,14 +134,12 @@
                   class="h-4 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
+                  stroke="currentColor">
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2H3V4zM3 10h18v4H3v-4zm0 6h18v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2z"
-                  />
+                    d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2H3V4zM3 10h18v4H3v-4zm0 6h18v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2z" />
                 </svg>
                 <span class="font-bold">Filter</span>
               </button>
@@ -159,8 +148,7 @@
                 <button title="Grid View">
                   <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
                     <path
-                      d="M3 3h4v4H3V3zm5 0h4v4H8V3zm5 0h4v4h-4V3zM3 8h4v4H3V8zm5 0h4v4H8V8zm5 0h4v4h-4V8zM3 13h4v4H3v-4zm5 0h4v4H8v-4zm5 0h4v4h-4v-4z"
-                    />
+                      d="M3 3h4v4H3V3zm5 0h4v4H8V3zm5 0h4v4h-4V3zM3 8h4v4H3V8zm5 0h4v4H8V8zm5 0h4v4h-4V8zM3 13h4v4H3v-4zm5 0h4v4H8v-4zm5 0h4v4h-4v-4z" />
                   </svg>
                 </button>
                 <button title="List View">
@@ -179,8 +167,7 @@
                 <input
                   type="number"
                   value="16"
-                  class="w-16 px-2 py-1 border rounded text-center text-gray-600"
-                />
+                  class="w-16 px-2 py-1 border rounded text-center text-gray-600" />
               </label>
 
               <label class="flex items-center space-x-2">
@@ -195,11 +182,10 @@
           </div>
         </div>
         <div class="p-6 bg-white">
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 m-[60px] my-[10px]">
-
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 m-[60px] my-[10px]">
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-30%</span
@@ -207,14 +193,11 @@
               <img
                 src="../assets/Sofa-card1.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -235,8 +218,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-20%</span
@@ -244,14 +226,11 @@
               <img
                 src="../assets/Sofa-card2.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -272,8 +251,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-50%</span
@@ -281,14 +259,11 @@
               <img
                 src="../assets/Sofa-card3.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -309,8 +284,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-green-400 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >New</span
@@ -318,14 +292,11 @@
               <img
                 src="../assets/Sofacard4.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -337,15 +308,11 @@
               <div class="p-4">
                 <h3 class="font-bold text-lg">Leviosa</h3>
                 <p class="text-sm text-gray-500">Stylish cafe chair</p>
-                <p class="text-black font-bold mt-2">
-                  Rp 9.000.000
-                  
-                </p>
+                <p class="text-black font-bold mt-2">Rp 9.000.000</p>
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-15%</span
@@ -353,14 +320,11 @@
               <img
                 src="../assets/Sofacard5.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -381,8 +345,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-green-400 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >New</span
@@ -390,14 +353,11 @@
               <img
                 src="../assets/Sofacard6.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -409,14 +369,11 @@
               <div class="p-4">
                 <h3 class="font-bold text-lg">Syltherine</h3>
                 <p class="text-sm text-gray-500">Stylish cafe chair</p>
-                <p class="text-black font-bold mt-2">
-                  Rp 9.300.000
-                </p>
+                <p class="text-black font-bold mt-2">Rp 9.300.000</p>
               </div>
             </div>
-            <div    
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+            <div
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-25%</span
@@ -424,14 +381,11 @@
               <img
                 src="../assets/Sofacard7.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -452,8 +406,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-30%</span
@@ -461,14 +414,11 @@
               <img
                 src="../assets/Sofacard8.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -489,8 +439,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-30%</span
@@ -498,14 +447,11 @@
               <img
                 src="../assets/Sofa-card1.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -526,8 +472,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-20%</span
@@ -535,14 +480,11 @@
               <img
                 src="../assets/Sofa-card2.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -563,8 +505,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-50%</span
@@ -572,14 +513,11 @@
               <img
                 src="../assets/Sofa-card3.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -600,8 +538,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-green-400 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >New</span
@@ -609,14 +546,11 @@
               <img
                 src="../assets/Sofacard4.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -628,15 +562,11 @@
               <div class="p-4">
                 <h3 class="font-bold text-lg">Leviosa</h3>
                 <p class="text-sm text-gray-500">Stylish cafe chair</p>
-                <p class="text-black font-bold mt-2">
-                  Rp 9.000.000
-                  
-                </p>
+                <p class="text-black font-bold mt-2">Rp 9.000.000</p>
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-15%</span
@@ -644,14 +574,11 @@
               <img
                 src="../assets/Sofacard5.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -672,8 +599,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-green-400 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >New</span
@@ -681,14 +607,11 @@
               <img
                 src="../assets/Sofacard6.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -700,14 +623,11 @@
               <div class="p-4">
                 <h3 class="font-bold text-lg">Syltherine</h3>
                 <p class="text-sm text-gray-500">Stylish cafe chair</p>
-                <p class="text-black font-bold mt-2">
-                  Rp 9.300.000
-                </p>
+                <p class="text-black font-bold mt-2">Rp 9.300.000</p>
               </div>
             </div>
-            <div    
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+            <div
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-25%</span
@@ -715,14 +635,11 @@
               <img
                 src="../assets/Sofacard7.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -743,8 +660,7 @@
               </div>
             </div>
             <div
-              class="relative group bg-white border rounded overflow-hidden shadow-sm"
-            >
+              class="relative group bg-white border rounded overflow-hidden shadow-sm">
               <span
                 class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                 >-30%</span
@@ -752,14 +668,11 @@
               <img
                 src="../assets/Sofacard8.jpg"
                 alt="Syltherine"
-                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+                class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div
-                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
+                class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
-                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold"
-                >
+                  class="bg-white text-black px-4 py-2 rounded mb-4 font-semibold">
                   Add to cart
                 </button>
                 <div class="flex space-x-4 text-sm">
@@ -779,22 +692,25 @@
                 </p>
               </div>
             </div>
-            
           </div>
         </div>
       </section>
-      <section class="flex  items-center justify-center">
+      <section class="flex items-center justify-center">
         <div class="flex items-center justify-center space-x-2 py-8">
-          <button class="flex h-10 w-10 items-center justify-center rounded bg-amber-500 text-white">
+          <button
+            class="flex h-10 w-10 items-center justify-center rounded bg-amber-500 text-white">
             1
           </button>
-          <button class="flex h-10 w-10 items-center justify-center rounded bg-amber-50 text-gray-800 hover:bg-amber-100">
+          <button
+            class="flex h-10 w-10 items-center justify-center rounded bg-amber-50 text-gray-800 hover:bg-amber-100">
             2
           </button>
-          <button class="flex h-10 w-10 items-center justify-center rounded bg-amber-50 text-gray-800 hover:bg-amber-100">
+          <button
+            class="flex h-10 w-10 items-center justify-center rounded bg-amber-50 text-gray-800 hover:bg-amber-100">
             3
           </button>
-          <button class="flex items-center justify-center rounded bg-amber-50 px-4 py-2 text-gray-800 hover:bg-amber-100">
+          <button
+            class="flex items-center justify-center rounded bg-amber-50 px-4 py-2 text-gray-800 hover:bg-amber-100">
             Next
           </button>
         </div>
@@ -857,8 +773,7 @@
     </main>
     <footer class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
       <div
-        class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 mb-8 md:mb-12"
-      >
+        class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 mb-8 md:mb-12">
         <div class="md:col-span-12 lg:col-span-4">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Funiro.</h3>
           <p class="text-gray-500 text-sm leading-relaxed">
@@ -920,12 +835,10 @@
             <input
               type="email"
               placeholder="Enter Your Email Address"
-              class="border-b border-black pb-0.5 bg-transparent focus:outline-none text-sm flex-grow placeholder:text-gray-400 placeholder:font-medium"
-            />
+              class="border-b border-black pb-0.5 bg-transparent focus:outline-none text-sm flex-grow placeholder:text-gray-400 placeholder:font-medium" />
             <button
               type="submit"
-              class="border-b border-black pb-0.5 text-sm font-semibold hover:text-gray-600 focus:outline-none whitespace-nowrap"
-            >
+              class="border-b border-black pb-0.5 text-sm font-semibold hover:text-gray-600 focus:outline-none whitespace-nowrap">
               SUBSCRIBE
             </button>
           </form>
