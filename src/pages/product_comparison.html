@@ -8,65 +8,105 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-6 shadow-md bg-white">
-            <div class="flex justify-between items-center">
-                <a href="#" class="flex items-center space-x-2">
-                    <img src="../assets/Logo.png" alt="Furniro Logo" class="h-8 md:h-9 w-auto">
-                    <span class="text-2xl md:text-3xl font-bold text-gray-900">Furniro</span>
-                </a>
-    
-                <div class="hidden md:flex items-center space-x-10 lg:space-x-16">
-                    <a href="/index.html" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">Home</a>
-                    <a href="./shop_page.html" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">Shop</a>
-                    <a href="#" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">About</a>
-                    <a href="./contact.html" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">Contact</a>
-                </div>
-    
-                <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
-                    <a href="#" class="text-gray-900 hover:text-gray-600">
-                        <i class="fa-solid fa-user fa-lg"></i>
-                    </a>
-                    <a href="#" class="text-gray-900 hover:text-gray-600">
-                         <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-                    </a>
-                    <a href="#" class="text-gray-900 hover:text-gray-600">
-                         <i class="fa-solid fa-heart fa-lg"></i>
-                    </a>
-                    <a href="#" class="text-gray-900 hover:text-gray-600">
-                         <i class="fa-solid fa-cart-shopping fa-lg"></i>
-                    </a>
-                </div>
-    
-                <div class="md:hidden flex items-center">
-                     <button class="text-gray-900 focus:outline-none cursor-default">
-                        <i class="fa-solid fa-bars fa-lg"></i>
-                    </button>
-                </div>
+    <header class="sticky top-0 z-50">
+        <nav
+          class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-6 shadow-md bg-white ">
+          <div class="flex justify-between items-center">
+            <a href="./index.html" class="flex items-center space-x-2">
+              <img
+                src="../assets//Logo.png "
+                alt="Furniro Logo"
+                class="h-8 md:h-9 w-auto" />
+              <span class="text-2xl md:text-3xl font-bold text-gray-900"
+                >Furniro</span
+              >
+            </a>
+            <div class="hidden md:flex items-center space-x-10 lg:space-x-16">
+              <a
+                href="/index.html"
+                class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+                >Home</a
+              >
+              <a
+                href="./src/pages/shop_page.html"
+                class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+                >Shop</a
+              >
+              <a
+                href="./about.html"
+                class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+                >About</a
+              >
+              <a
+                href="./contact.html"
+                class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base"
+                >Contact</a
+              >
+              <a
+              href="./blog.html"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+              >Bloge</a
+            >
             </div>
-    
-            <div class="md:hidden mt-4 border-t border-gray-100 pt-4 space-y-2">
-                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">Home</a>
-                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">Shop</a>
-                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">About</a>
-                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">Contact</a>
-                 <div class="flex items-center space-x-4 pt-4 px-3 border-t border-gray-100 mt-2">
-                    <a href="#" class="text-gray-800 hover:text-gray-600">
-                        <i class="fa-solid fa-user fa-lg"></i>
-                    </a>
-                    <a href="#" class="text-gray-800 hover:text-gray-600">
-                         <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-                    </a>
-                    <a href="#" class="text-gray-800 hover:text-gray-600">
-                         <i class="fa-solid fa-heart fa-lg"></i>
-                    </a>
-                    <a href="#" class="text-gray-800 hover:text-gray-600">
-                         <i class="fa-solid fa-cart-shopping fa-lg"></i>
-                    </a>
-                </div>
+            <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
+              <a
+                href="/src/auth/register.html"
+                class="text-gray-900 hover:text-gray-600">
+                <i class="fa-solid fa-user fa-lg"></i>
+              </a>
+  
+              <a href="./cart.html" class="text-gray-900 hover:text-gray-600">
+                <i class="fa-solid fa-cart-shopping fa-lg"></i>
+              </a>
             </div>
+  
+            <div class="md:hidden flex items-center">
+              <button class="text-gray-900 focus:outline-none cursor-default">
+                <i class="fa-solid fa-bars fa-lg"></i>
+              </button>
+            </div>
+          </div>
+  
+          <div class="md:hidden mt-4 border-t border-gray-100 pt-4 space-y-2">
+            <a
+              href="/"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+              >Home</a
+            >
+            <a
+              href="./shop_page.html"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+              >Shop</a
+            >
+            <a
+              href="./about.html"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+              >About</a
+            >
+            <a
+              href="./contact.html"
+  
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+              >Contact</a
+            >
+            <a
+            href="./blog.html"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+            >Bloge</a
+          >
+            <div
+              class="flex items-center space-x-4 pt-4 px-3 border-t border-gray-100 mt-2">
+              <a href="/src/auth/register.html" class="text-gray-800 hover:text-gray-600">
+                <i class="fa-solid fa-user fa-lg"></i>
+              </a>
+             
+              <a href="./cart.html" class="text-gray-800 hover:text-gray-600">
+                <i class="fa-solid fa-cart-shopping fa-lg"></i>
+              </a>
+            </div>
+          </div>
         </nav>
-    </header>
+      </header>
     <main>
         <section class="mt-1 relative opacity-50 bg-cover bg-center h-[350px]" style="background-image: url('/src/assets/prod_compare.jpg');">
             <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
