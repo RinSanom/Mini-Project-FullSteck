@@ -4,9 +4,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-6 shadow-md bg-white">
+            <div class="flex justify-between items-center">
+                <a href="#" class="flex items-center space-x-2">
+                    <img src="../assets/Logo.png" alt="Furniro Logo" class="h-8 md:h-9 w-auto">
+                    <span class="text-2xl md:text-3xl font-bold text-gray-900">Furniro</span>
+                </a>
     
+                <div class="hidden md:flex items-center space-x-10 lg:space-x-16">
+                    <a href="/index.html" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">Home</a>
+                    <a href="./shop_page.html" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">Shop</a>
+                    <a href="#" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">About</a>
+                    <a href="./contact.html" class="text-gray-900 hover:text-gray-600 font-medium text-sm lg:text-base">Contact</a>
+                </div>
+    
+                <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
+                    <a href="#" class="text-gray-900 hover:text-gray-600">
+                        <i class="fa-solid fa-user fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-900 hover:text-gray-600">
+                         <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-900 hover:text-gray-600">
+                         <i class="fa-solid fa-heart fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-900 hover:text-gray-600">
+                         <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                    </a>
+                </div>
+    
+                <div class="md:hidden flex items-center">
+                     <button class="text-gray-900 focus:outline-none cursor-default">
+                        <i class="fa-solid fa-bars fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="md:hidden mt-4 border-t border-gray-100 pt-4 space-y-2">
+                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">Home</a>
+                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">Shop</a>
+                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">About</a>
+                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">Contact</a>
+                 <div class="flex items-center space-x-4 pt-4 px-3 border-t border-gray-100 mt-2">
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                        <i class="fa-solid fa-user fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                         <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                         <i class="fa-solid fa-heart fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                         <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="mt-1 relative opacity-50 bg-cover bg-center h-[350px]" style="background-image: url('/src/assets/prod_compare.jpg');">
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+            h-2/5 w-4/5  flex items-center justify-center">
+            <div class="flex flex-col items-center">
+                <img class="w-14 h-auto" src="/src/assets/Logo.png" alt="logo">
+                <h2 class="text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bold text-center">Product Comparison</h2>
+              <div class="gap-2">
+                <a class="font-semibold" href="/index.html">Home</a>
+                <i class="fa-solid fa-greater-than fa-sm"></i>
+                <a href="#">Comparison</a>
+              </div>
+            </div>
+        </div>
+           </div>
+          </section>
+          <section class="mx-8 md:mx-10 lg:mx-14 xl:mx-16 p-5 md:p-7 lg:p-9 xl:p-10 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 pb-3">
+                <div>
+                    <h3 class="font-semibold text-2xl">Go to Product page for more Products</h3>
+                    <a class="mt-7" href="#">View more</a>
+                </div>
+                 <div>
+                    <img src="/src/assets/Asgaard_Sofa.png" alt="">
+                    <div class="pt-3 font-semibold">
+                        <h3>Asgaard Sofa</h3>
+                        <p>Rs. 250,000.00</p>
+                    <div class="flex">
+                        <p>4.7 <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star-half fa-sm" style="color: #FFD43B;"></i></p>
+                        <div class="h-5 w-px bg-gray-300 mx-2"></div>
+  <small class="text-gray-500 text-sm">204 Review</small>
+                   
+                    </div>   
+                    </div>
+                </div>
+                 <div >
+                    <img src="/src/assets/Outdoor_Sofa_Set.png" alt="">
+                    <div class="pt-3 font-semibold">
+                        <h3>Outdoor Sofa Set</h3>
+                        <p>Rs. 224,000.00</p>
+                    <div class="flex">
+                        <p>4.7 <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i><i class="fa-solid fa-star-half fa-sm" style="color: #FFD43B;"></i></p>
+                        <div class="h-5 w-px bg-gray-300 mx-2"></div>
+  <small class="text-gray-500 text-sm">145 Review</small>
+                   
+                    </div> 
+                </div>   
+            </div>
+            <div class="flex flex-col items-center justify-content-center">
+            <div>
+                <h3 class="font-semibold p-3 text-2xl">Add A Product</h3>
+                <button class="bg-[#B88E2F] px-4 py-2 rounded-[15px] text-white">Choose a Product <span class="ml-5"><i class="fa-solid fa-chevron-down fa-sm" style="color: #ffffff;"></i></span></button>
+           
+            </div>
+            </div>
+        </div>
+          </section>
+          <section class="mx-8 md:mx-10 lg:mx-14 xl:mx-16 p-5 md:p-7 lg:p-9 xl:p-10 ">
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div class="border-r border-t border-gray-300 pr-5 pb-3">
+                <h3 class="pt-5 font-bold">General</h3>
+                <p class="my-3">Sales Package</p>
+                <p class="my-3">Model Number</p>
+                <p class="my-3">Secondary Material</p>
+                <p class="my-3">Configuration</p>
+                <p class="my-3">Upholstery Material</p>
+                <p class="my-3">Upholstery Color</p>
+                <!-- product -->
+                <h3 class="pt-5 font-bold">Product</h3>
+                <p class="my-3">Filling Material</p>
+                <p class="my-3">Finish Type</p>
+                <p class="my-3">Adjustable Headrest</p>
+                <p class="my-3">Maximum Load Capacity</p>
+                
+                <p class="my-3">Origin of Manufacture</p>
+
+                <!-- dimensions -->
+                <h3 class="pt-5 font-bold">Dimensions</h3>
+                <p class="my-3">Width</p>
+                <p class="my-3">Height</p>
+                <p class="my-3">Depth</p>
+                <p class="my-3">Weigth</p>
+                <p class="my-3">Seat Height</p>
+                <p class="my-3">Leg Height</p>
+                
+                <!-- warranty -->
+                <h3 class="pt-5 font-bold">Warranty</h3>
+                <p class="my-3 line-clamp-2 h-auto">Warranty Summary</p>
+                <p class="my-3 h-[4.5rem] ">Warranty Service 
+                    Type</p>
+                <p class="my-3 h-[3rem]">Covered in Warranty</p>
+                <p class="my-3 h-[6rem]">Not Covered in Warranty</p>
+                <p class="my-3">Domestic Warranty</p>
+            </div>
+            <!-- col2 -->
+           <div class="border-r border-t border-gray-300 px-5 pb-3">
+            <p class="my-3 pt-11">1 sectional sofa</p>
+            <p class="my-3">TFCBLIGRBL6SRHS</p>
+            <p class="my-3">Solid Wood</p>
+            <p class="my-3">L-shaped</p>
+            <p class="my-3">Fabric + Cotton</p>
+            <p class="my-3">Bright Grey & Lion</p>
+
+            <!-- product -->
+            <p class="my-3 pt-13">Foam</p>
+            
+            <p class="my-3">Bright Grey & Lion</p>
+            <p class="my-3">No</p>
+            
+            <p class="my-3">280KG</p>
+            <p class="my-3">India</p>
+            <!-- dimensions -->
+            
+            <p class="my-3 pt-15">265.32 cm</p>
+            <p class="my-3">76 cm</p>
+            <p class="my-3">167.76 cm</p>
+            <p class="my-3">45 KG</p>
+            <p class="my-3">41.52 cm</p>
+            <p class="my-3">5.46 cm</p>
+            
+            <!-- warranty -->
+            <p class="my-3 pt-13">1 Year Manufacturing Warranty</p>
+            <p class="my-3">For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com</p>
+            <p class="my-3 h-[3rem]">Warranty Against Manufacturing Defect</p>
+            <p class="my-3">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</p>
+            <p class="my-3">1 Year</p>
+            <button class="px-4 py-2 bg-[#B88E2F] text-white">Add To Cart</button>
+           </div>
+           <!-- col3 -->
+           <div class="border-r border-t border-gray-300 px-5 pb-3">
+            <p class="my-3 pt-11">1 Three Seater, 2 Single Seater</p>
+            <p class="my-3">DTUBLIGRBL568</p>
+            <p class="my-3">Solid Wood</p>
+            <p class="my-3">L-shaped</p>
+            <p class="my-3">Fabric + Cotton</p>
+            <p class="my-3">Bright Grey & Lion</p>
+
+            <!-- product -->
+            <p class="my-3 pt-13">Matte</p>
+            
+            <p class="my-3">Bright Grey & Lion</p>
+            <p class="my-3">yes</p>
+            
+            <p class="my-3">300 KG</p>
+            <p class="my-3">India</p>
+            <!-- dimensions -->
+            
+            <p class="my-3 pt-15">265.32 cm</p>
+            <p class="my-3">76 cm</p>
+            <p class="my-3">167.76 cm</p>
+            <p class="my-3">65 KG</p>
+            <p class="my-3">41.52 cm</p>
+            <p class="my-3">5.46 cm</p>
+            
+            <!-- warranty -->
+            <p class="my-3 pt-13">1.2 Year Manufacturing Warranty</p>
+            <p class="my-3">For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</p>
+            <p class="my-3">Warranty of the product is limited to manufacturing defects only.</p>
+            <p class="my-3">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</p>
+            <p class="my-3">3 Months</p>
+            <button class="px-4 py-2 bg-[#B88E2F] text-white">Add To Cart</button>
+           </div>
+           <div class=" border-t border-gray-300"></div>
+        </div>
+          </section>
+    </main>
+    <footer class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 mb-8 md:mb-12">
+            <div class="md:col-span-12 lg:col-span-4">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Funiro.</h3>
+                <p class="text-gray-500 text-sm leading-relaxed">
+                    400 University Drive Suite 200 Coral Gables,<br>
+                    FL 33134 USA
+                </p>
+            </div>
+
+            <div class="md:col-span-4 lg:col-span-2">
+                <h4 class="text-gray-400 font-medium mb-4 text-sm">Links</h4>
+                <nav class="space-y-2 md:space-y-3">
+                    <a href="#" class="block text-gray-800 hover:text-gray-600 font-medium text-sm">Home</a>
+                    <a href="#" class="block text-gray-800 hover:text-gray-600 font-medium text-sm">Shop</a>
+                    <a href="#" class="block text-gray-800 hover:text-gray-600 font-medium text-sm">About</a>
+                    <a href="#" class="block text-gray-800 hover:text-gray-600 font-medium text-sm">Contact</a>
+                </nav>
+            </div>
+
+            <div class="md:col-span-4 lg:col-span-3">
+                <h4 class="text-gray-400 font-medium mb-4 text-sm">Help</h4>
+                <nav class="space-y-2 md:space-y-3">
+                    <a href="#" class="block text-gray-800 hover:text-gray-600 font-medium text-sm">Payment Options</a>
+                    <a href="#" class="block text-gray-800 hover:text-gray-600 font-medium text-sm">Returns</a>
+                    <a href="#" class="block text-gray-800 hover:text-gray-600 font-medium text-sm">Privacy Policies</a>
+                </nav>
+            </div>
+
+            <div class="md:col-span-4 lg:col-span-3">
+                <h4 class="text-gray-400 font-medium mb-4 text-sm">Newsletter</h4>
+                <form class="flex space-x-2 sm:space-x-4 items-end">
+                    <input type="email" placeholder="Enter Your Email Address" class="border-b border-black pb-0.5 bg-transparent focus:outline-none text-sm flex-grow placeholder:text-gray-400 placeholder:font-medium">
+                    <button type="submit" class="border-b border-black pb-0.5 text-sm font-semibold hover:text-gray-600 focus:outline-none whitespace-nowrap">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-200 pt-6 md:pt-8">
+            <p class="text-gray-800 text-sm text-left">2023 furino. All rights reserved</p>
+        </div>
+    </footer>
 </body>
 </html>
